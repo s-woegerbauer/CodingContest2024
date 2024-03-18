@@ -1,0 +1,15 @@
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.exe
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.deps.json
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.runtimeconfig.json
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.dll
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.pdb
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.csproj.AssemblyReference.cache
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.AssemblyInfoInputs.cache
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.AssemblyInfo.cs
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.csproj.CoreCompileInputs.cache
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.dll
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\refint\CodingContest2024.dll
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.pdb
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.genruntimeconfig.cache
+C:\Users\simsi\RiderProjects\CodingContest2024\CodingContest2024\obj\Debug\net7.0\ref\CodingContest2024.dll
