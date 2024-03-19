@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simsi\\RiderProjects\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj": {}
+    "D:\\GitHub\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simsi\\RiderProjects\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj": {
+    "D:\\GitHub\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simsi\\RiderProjects\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj",
+        "projectUniqueName": "D:\\GitHub\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj",
         "projectName": "CodingContest2024",
-        "projectPath": "C:\\Users\\simsi\\RiderProjects\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj",
+        "projectPath": "D:\\GitHub\\CodingContest2024\\CodingContest2024\\CodingContest2024.csproj",
         "packagesPath": "C:\\Users\\simsi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simsi\\RiderProjects\\CodingContest2024\\CodingContest2024\\obj\\",
+        "outputPath": "D:\\GitHub\\CodingContest2024\\CodingContest2024\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simsi\\AppData\\Roaming\\NuGet\\NuGet.Config",
