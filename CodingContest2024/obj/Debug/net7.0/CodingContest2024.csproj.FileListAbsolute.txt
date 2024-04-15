@@ -28,3 +28,17 @@ D:\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\refint\CodingCont
 D:\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.pdb
 D:\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.genruntimeconfig.cache
 D:\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\ref\CodingContest2024.dll
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.exe
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.deps.json
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.runtimeconfig.json
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.dll
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\bin\Debug\net7.0\CodingContest2024.pdb
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.AssemblyInfoInputs.cache
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.AssemblyInfo.cs
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.csproj.CoreCompileInputs.cache
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.dll
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\refint\CodingContest2024.dll
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.pdb
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\CodingContest2024.genruntimeconfig.cache
+D:\OneDrive - HTBLA Leonding\Dokumente\GitHub\CodingContest2024\CodingContest2024\obj\Debug\net7.0\ref\CodingContest2024.dll

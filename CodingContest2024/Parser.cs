@@ -5,6 +5,8 @@ public class Parser
     private const string InputFilePath = "\\Input";
 
     private int _currentIndex = 0;
+
+    private bool _firstLineIsInfo = false;
     
     private List<Func<List<string>, object>> Parsers { get; }
 
@@ -18,20 +20,29 @@ public class Parser
         List<object> parsed = new();
         string[] input = File.ReadAllLines((Directory.GetFiles(Directory.GetCurrentDirectory() + InputFilePath))[_currentIndex]);
         
+        int lineIndex = 0;
         foreach (Func<List<string>, object> parsing in Parsers)
         {
             List<string> lines = new();
             string curLine;
-            int lineIndex = 0;
+            string parameters = input[lineIndex];
+            lineIndex += 1;
+            int curIndex = 0;
+            int numberOfLines = int.Parse(parameters.Split(' ')[0]);
+            string others = string.Join(' ', parameters.Split(' ').Skip(1));
             do
             {
                 curLine = input[lineIndex];
                 lines.Add(curLine);
                 lineIndex++;
+                curIndex++;
             } 
-            while (curLine != "" && lineIndex < input.Length);
+            while (curIndex < numberOfLines && curLine != "" && lineIndex < input.Length);
+
+            var list = lines.ToList();
+            list.Insert(0, others);
             
-            parsed.Add(parsing.Invoke(lines.Skip(1).ToList()));
+            parsed.Add(parsing.Invoke(list));
         }
 
         _currentIndex++;

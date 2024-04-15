@@ -32,47 +32,45 @@ public static class Program
     public static void Main()
     {
         List<Func<List<string>, object>> functions = new List<Func<List<string>, object>>();
-        functions.Add(AddNumbers);
-        functions.Add(MultiplyNumbers);
+        functions.Add(ParserOne);
         
         InputOutputHelper.Process(Solution, new Parser(functions));
+        
+        // If you want to take the first line or anything for info just remove it here
+        // BUT! Default is that the first line of each input contains number of lines + params
+        // eg.:
+        // 2 Hello 18
+        // 1,2,3,4
+        // 5,6,7,8
+        
+        // Here 2 is the number of lines
+        // And the parser will get as the first line as params "Hello 18"
+        // HOWEVER it can be that you need to extract extra lines at the beginning!
     }
 
+    /// <summary>
+    /// To Cast:
+    /// [DataType] scores = parsed[0] as [DataType];
+    /// </summary>
+    /// <param name="parser"></param>
+    /// <returns></returns>
     public static List<string> Solution(Parser parser)
     {
         List<object> parsed = parser.Go();
-        
-        int numbersAdded = (int)parsed[0];
-        int numbersMultiplied = (int)parsed[0];
-        
-        List<string> output = new List<string>();
-        output.Add(numbersAdded.ToString());
-        output.Add(numbersMultiplied.ToString());
-
-        return output;
+        return null!;
     }
 
-    public static object AddNumbers(List<string> toParse)
-    {
-        int sum = 0;
-        
-        foreach (string line in toParse)
-        {
-            sum += int.Parse(line);
-        }
 
-        return sum;
-    }
     
-    public static object MultiplyNumbers(List<string> toParse)
+    /// <summary>
+    /// First line in toParse are additional params
+    /// To delete these:
+    /// toParse.RemoveAt(0);
+    /// </summary>
+    /// <param name="toParse"></param>
+    /// <returns></returns>
+    public static object ParserOne(List<string> toParse)
     {
-        int product = 1;
-        
-        foreach (string line in toParse)
-        {
-            product *= int.Parse(line);
-        }
-
-        return product;
+        return null!;
     }
 }
