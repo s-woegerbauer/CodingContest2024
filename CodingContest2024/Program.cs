@@ -38,7 +38,7 @@ public static class Program
         
         // If you want to take the first line or anything for info just remove it here
         // BUT! Default is that the first line of each input contains number of lines + params
-        // eg.:
+        // e.g.:
         // 2 Hello 18
         // 1,2,3,4
         // 5,6,7,8
@@ -57,7 +57,12 @@ public static class Program
     public static List<string> Solution(Parser parser)
     {
         List<object> parsed = parser.Go();
-        return null!;
+        List<int>? scores = parsed[0] as List<int>;
+        
+        List<string> result = new List<string>();
+        result.Add(scores!.Max().ToString());
+        
+        return result;
     }
 
 
@@ -71,6 +76,14 @@ public static class Program
     /// <returns></returns>
     public static object ParserOne(List<string> toParse)
     {
-        return null!;
+        toParse.RemoveAt(0);
+        
+        List<int> scores = new List<int>();
+        foreach(string line in toParse)
+        {
+            scores.Add(int.Parse(line));
+        }
+
+        return scores;
     }
 }

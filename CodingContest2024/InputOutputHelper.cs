@@ -32,9 +32,9 @@ public static class InputOutputHelper
         foreach (string filePath in Directory.GetFiles(inputPath))
         {
             List<string> lines = solution.Invoke(parser);
-            string fileName = filePath.Split(Path.PathSeparator)[^1];
+            string fileName = filePath.Split(Path.DirectorySeparatorChar)[^1];
 
-            File.WriteAllLines(Path.Combine(outputPath) + fileName, lines);
+            File.WriteAllLines(Path.Combine(outputPath, fileName), lines);
         }
     }
 }
