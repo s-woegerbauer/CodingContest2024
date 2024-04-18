@@ -35,6 +35,7 @@ public static class Program
         functions.Add(ParserOne);
         
         InputOutputHelper.Process(Solution, new Parser(functions));
+        Tester.Process(Solution, new Parser(functions, true));
         
         // If you want to take the first line or anything for info just remove it here
         // BUT! Default is that the first line of each input contains number of lines + params
