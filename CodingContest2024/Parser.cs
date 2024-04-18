@@ -2,11 +2,8 @@
 
 public class Parser
 {
-    private const string InputFilePath = "\\Input";
-
+    private static readonly string InputFilePath = Path.Combine(Directory.GetCurrentDirectory(), "Input");
     private int _currentIndex = 0;
-
-    private bool _firstLineIsInfo = false;
     
     private List<Func<List<string>, object>> Parsers { get; }
 
@@ -18,7 +15,7 @@ public class Parser
     public List<object> Go()
     {
         List<object> parsed = new();
-        string[] input = File.ReadAllLines((Directory.GetFiles(Directory.GetCurrentDirectory() + InputFilePath))[_currentIndex]);
+        string[] input = File.ReadAllLines((Directory.GetFiles(InputFilePath))[_currentIndex]);
         
         int lineIndex = 0;
         foreach (Func<List<string>, object> parsing in Parsers)

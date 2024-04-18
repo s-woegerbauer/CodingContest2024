@@ -4,8 +4,8 @@ namespace CodingContest2024;
 
 public static class InputOutputHelper
 {
-    private const string InputFilePath = "\\Input\\";
-    private const string OutputFilePath = "\\Output\\";
+    private const string InputFilePath = "Input";
+    private const string OutputFilePath = "Output";
 
     private static string GetFilePath(bool input, string fileName = "")
     {
@@ -13,10 +13,10 @@ public static class InputOutputHelper
         
         if (fileName == "")
         {
-            return (Directory.GetCurrentDirectory() + addon).Trim('\\');
+            return Path.Combine(Directory.GetCurrentDirectory(), addon);
         }
         
-        return Directory.GetCurrentDirectory() + addon + fileName;
+        return Path.Combine(Directory.GetCurrentDirectory(), addon, fileName);
     }
 
     public static void Process(Func<Parser, List<string>> solution, Parser parser)
@@ -32,9 +32,9 @@ public static class InputOutputHelper
         foreach (string filePath in Directory.GetFiles(inputPath))
         {
             List<string> lines = solution.Invoke(parser);
-            string fileName = filePath.Split('\\')[^1];
+            string fileName = filePath.Split(Path.PathSeparator)[^1];
 
-            File.WriteAllLines(outputPath + '\\' + fileName, lines);
+            File.WriteAllLines(Path.Combine(outputPath) + fileName, lines);
         }
     }
 }
